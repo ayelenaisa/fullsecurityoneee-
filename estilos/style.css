@@ -8,7 +8,7 @@
   }*
       /* selector-propiedad- valor */
 
-  .header {    
+ /* .header {    
  display: flex;
  flex-direction: row;
  justify-content: center;
@@ -33,16 +33,16 @@ ul{
   display: flex;
   justify-content: center;
   }
- 
+ */
   .principal {
  background-image: url("../img/logofondonegro.jpg");
  background-repeat: no-repeat;
  background-size: cover;
- height: 1272px;;
+ height: 1419px;
  }
- .formPosition{
+ /*.formPosition{
    margin-bottom: -310px;
- }
+ }*/
  .promoCiones{
   background-image: url("../img/logofondonegro.jpg");
   background-repeat: no-repeat;
@@ -51,20 +51,20 @@ ul{
 
  }
 
- ul li a{
+ /*ul li a{
                 color:rgb(0, 0, 0);
        font-weight: bold;
        padding: 10px;
        margin-bottom: 3px;
-                     }
+                     }*/
                           
-  ul li{
+ /* ul li{
         display:contents;
-       }
+       }*/
 
-   h1{
+   h1, .sistemaAlarmas{
       padding: 1px;
-      margin: auto;
+      margin: 64px 5px 10px;
       color: rgb(146, 8, 100);
       font-size: 60px;
       font-weight: bold;
@@ -87,6 +87,7 @@ ul{
         text-align: center  ; 
                   font-size: larger;
         justify-content:space-between;
+        margin:87px
          }
          
        .bodyalarmas{
@@ -95,6 +96,7 @@ ul{
           background-size: cover;
           height: 1200px;
           }
+          
         
          .seguridadUno{
           padding: 10px;
@@ -122,7 +124,7 @@ ul{
   font-style: italic;
   border: 3px rgb(196, 86, 141) double;
         }            
- h3{
+ h3  {
  padding: 31px;
  margin-top: 10px;
  margin-right: 940px;
@@ -145,8 +147,35 @@ h4{
  font-size: xx-large;
  font-style: italic;
  border: 3px rgb(196, 86, 141) double  ;
+ } 
+ 
+ .clientesNuestros{
+  padding: 31px;
+margin-top: 73px;
+margin-right: 197px;
+margin-bottom: 37px;
+color: rgb(16, 193, 177);
+background-color: black;
+font-family: sans-serif;
+font-size: xx-large;
+font-style: italic;
+border: 3px rgb(196, 86, 141) double;
+margin-left: 235px;
  }
-h5{
+ .alarmasBody{
+   background-image: url(../img/logofondonegro.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 1100px;
+   }
+   .footerAlarmas{
+     margin-top: 746px;
+   }
+   .formulariodeContacto{
+     margin:  10px 390px 10px 390px;
+   }
+   
+   h5{
   padding: 31px;
   margin-top: 10px;
   margin-right: 940px;
@@ -167,7 +196,6 @@ border: 5px dotted rgb(128, 128, 128);
 
  }
 
-
  .footer {
   padding: 30px;
   height: 26px;
@@ -183,27 +211,8 @@ border: 5px dotted rgb(128, 128, 128);
  
 }
 
+ 
 
-   .formularioUno{
-  display: flex;
-  flex-direction: center;
-  margin-top: 10px;
-  margin-bottom: 300px;          
-  margin-left: 300px;
-  margin-right: 300px;
-          }
-  
-  .formularioContac {
-  margin-top: -1025px;
-  margin-left: 82px;
-  margin-right: 800px;
-  margin-bottom: 500px;
-  background-color: rgba(191, 194, 194, 0.295);
-  color: rgb(5, 170, 148);
-  font-family: 'Courier New', Courier, monospace;
-  font-size: x-large;
-  border: 10px double rgb(255, 254, 255);
-}
   
     .grilla{
     display: grid;
@@ -225,10 +234,11 @@ border: 5px dotted rgb(128, 128, 128);
   background-image: url(../img/logofullsecurity.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1152px;
+  height: 1194px;
   width: 1346px;
   margin-left: 5px;
-  margin-bottom: 32px;
+  margin-bottom: 7px;
+  margin-top: 276px;
   } 
 .footer{
   grid-area: footer;
@@ -244,17 +254,18 @@ border: 5px dotted rgb(128, 128, 128);
   align-items: baseline;
   gap: 195px;
    height: 1170px;
-  margin: auto;
+  margin: 10px auto  ;
   width: 67%;
 }
  
   img{
     border: 5px solid rgb(9, 97, 109);
-    width: 177px;
-    height: 149px;
-    margin-top: 18px;
+    width: 182px;
+    height: 177px;
+    margin-top: 28px;
     margin-left: 84px;
     margin-bottom: 0px;
+  
   
 }
 
@@ -267,8 +278,8 @@ background-color: rgba(0, 0, 0, 0.534);
 border: 10px double rgb(133, 0, 51);
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 text-align:justify  ; 
- font-size:xx-large;
- margin-left: auto;
+ font-size:large;
+ margin: auto;
 }
 .imaGenes{
   border: grey solid 10px;
@@ -356,4 +367,3 @@ margin-right:-179px;
     transition-property: all ;
     transition-duration: 2s;
 }
-
